@@ -6,11 +6,10 @@ using System.Threading.Tasks;
 
 namespace TP1_Gigeroa
 {
-    class Sector
+    class Cargo
     {
-        public int Id_sector { get; set; }
+        public int Id_cargo { get; set; }
         public string Descripcion { get; set; }
-        public List<Cargo> Cargos = new List<Cargo>();
         public List<Empleado> Empleados = new List<Empleado>();
     }
 }
